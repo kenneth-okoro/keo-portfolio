@@ -23,11 +23,11 @@ const Experience = () => {
 
       <div className="experience">
         <div className="experience-skills">
-          <div className="skills  py-[2.4rem] px-[5rem] rounded-[2rem] border border-solid border-transparent grid gap-12 sm:w-full md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+          <div className="skills py-[2.4rem] px-[5rem] rounded-[2rem] border border-solid border-transparent grid gap-12 grid-cols-2 sm:w-full md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
             {skills.map((skill, id) => (
               <div
                 key={id}
-                className="p-4 w-[150px] h-[150px] lg:w-[200px] lg:h-[200px] mx-auto bg-white hover:-translate-y-6 duration-500 rounded-xl flex items-center justify-center"
+                className="p-4 w-[100px] h-[100px] lg:w-[150px] lg:h-[150px] mx-auto bg-color-bg-variant hover:-translate-y-6 duration-500 rounded-xl flex items-center justify-center"
               >
                 <img
                   className="cursor-pointer"
